@@ -1,0 +1,23 @@
+body {
+    display: inline-block;
+    margin: 0;
+    padding: 2rem;
+    border: 3px solid red;
+    background-color: #CFDCFF;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #dollars-output {
+    
+    
+  }
+  
+  .change {
+    border: 3px solid red;
+    
+  }
+  

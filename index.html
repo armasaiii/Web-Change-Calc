@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link href="main.css"rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <h1> Change Calculator </h1>
+
+    <p>How much is due for the sale?</p>
+      <input type="text" id="amount-due"/>
+
+    <p>How much has the customer given you?</p>
+      <input type="text"id="amount-received"/>
+    <button id ="calculate-change">Calculate</button>
+    <p id="correct-change"></p>
+    <p id="form"></p>
+    <table>
+        <tr>
+          <td colspan="4"><p id="dollars-output" class="change">Dollars</p></td>
+        </tr>
+        <tr>
+          <td><p id="quarters-output" class="change">Quarters</p></td>
+          <td><p id="dimes-output" class="change">Dimes</p></td>
+          <td><p id="nickels-output" class="change">Nickels</p></td>
+          <td><p id="pennies-output" class="change">Pennies</p></td>
+        </tr>
+      </table>
+
+    <!-- Don't forget to add your <script> tag here -->
+      <script src="main.js" charset="utf-8"></script>
+
+  </body>
+</html>
